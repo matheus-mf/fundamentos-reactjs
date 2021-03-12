@@ -96,6 +96,19 @@ Para lidar com imagens também é necessário criar regras no webpack.
 
 ## Listando Projetos da API
 
+### Axios
+
+O Axios é usado para integrar o front-end com o back-end, tendo a responsabilidade de fazer as chamadas HTTP. Dentro da
+pasta services colocamos todas as chamadas externas, exemplo a chama
+a [API NodeJS](https://github.com/matheus-mf/api-gestao-projetos-nodejs).
+
+![Pasta services](.github/pasta-services.png)
+
+Instância do Axios:
+
+![Instância do Axios](.github/instancia-axios.png)
+
+
 ---
 
 ## Cadastrando Projetos
