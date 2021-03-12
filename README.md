@@ -42,6 +42,16 @@ Como pegar a propriedade no componente, já com desestruturação:
 
 ![pegando propriedades no componente](.github/pegando-props.png)
 
+Por padrão todo componente em React pode receber um atributo chamado _children_.
+
+Como passar:
+
+![passando propriedade children no componente](.github/passando-children.png)
+
+Usando no componente:
+
+![usando propriedade children no componente](.github/usando-children.png)
+
 ---
 
 ## Estado e Imutabilidade
