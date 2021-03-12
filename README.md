@@ -80,6 +80,10 @@ Assim como existem regras no webpack para arquivos JS, é necessário criar as r
 
 ![Regras CSS](.github/regras-css-webpack.png)
 
+Para usar o estilo, basta importar o CSS para o componente:
+
+![importando CSS](.github/import-css.png)
+
 ### Imagens
 
 ---
