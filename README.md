@@ -108,6 +108,17 @@ Instância do Axios:
 
 ![Instância do Axios](.github/instancia-axios.png)
 
+### useEffect
+
+Podemos usá-lo para acionar uma função quando algo muda ou quando o componente é exibido na tela. Ele esperava dois
+parâmetros:
+
+- A função a ser acionada;
+- Quando acionado, passando por um Array de dependências.
+
+![use effect do React](.github/use-effect.png)
+
+Quando o Array de dependências está vazio, a função só será executada ao criar o componente.
 
 ---
 
