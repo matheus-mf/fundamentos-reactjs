@@ -3,12 +3,13 @@
 ## Transpilar
 
 Mesmo os navegadores mais modernos não conseguem entender os sprints do React, por isso é necessário usar o **Babel**.
-Ele é responsável por transpilar o código React de uma maneira que os navegadores entendam. E usando os loaders do 
-**Webpack**, será possível converter _JavaScripts_, _Imagens_ e _Estilos_ de acordo com o que os navegadores esperam. 
+Ele é responsável por transpilar o código React de uma maneira que os navegadores entendam. E usando os loaders do
+**Webpack**, será possível converter _JavaScripts_, _Imagens_ e _Estilos_ de acordo com o que os navegadores esperam.
 
 ---
 
 ## Componentes
+
 Conjunto isolado de HTMLs e CSSs que podem ser reaproveitado em outros lugares.
 
 ### JSX
@@ -29,6 +30,17 @@ Utilizando componente com Fragment:
 ---
 
 ## Propriedades
+
+São informações que podemos passar de um componente pai para um componente filho. As propriedades são passadas para um
+componente num formato de atributo, eles são extraídos do parâmetro _pros_ que o componente recebe.
+
+Como passar uma propriedade para componente:
+
+![passando propriedades para os componentes](.github/passando-props.png)
+
+Como pegar a propriedade no componente, já com desestruturação:
+
+![pegando propriedades no componente](.github/pegando-props.png)
 
 ---
 
