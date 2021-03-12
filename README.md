@@ -123,3 +123,12 @@ Quando o Array de dependências está vazio, a função só será executada ao c
 ---
 
 ## Cadastrando Projetos
+
+Registrando e apresentando um novo dado em tempo de execução:
+
+![Adicionando projeto](.github/handle-add-project.png)
+
+Para fazer o **babel** com `preset-env` entender as solicitações com async, é necessário instalar o
+plugin `@babel/plugin-transform-runtime`.
+
+![Plugin transform runtime babel](.github/babel-plugin-transform-runtime.png)
