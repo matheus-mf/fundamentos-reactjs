@@ -1,5 +1,14 @@
 <h1 align="center">Fundamentos do ReactJS</h1>
 
+É uma biblioteca para a construção de interfaces para os usuários interagirem. Usado para construir Aplicativos de
+Página Única (_Single Page Application_ - SPA) e todo o aplicativo está dentro do JavaScript.
+
+Exemplo de código:
+
+![Exemplo de código](.github/exemplo-code.png)
+
+---
+
 ## Transpilar
 
 Mesmo os navegadores mais modernos não conseguem entender os sprints do React, por isso é necessário usar o **Babel**.
