@@ -71,6 +71,17 @@ em proibir a alteração do formato de uma variável, ou seja, não é permitida
 
 ## Importando CSS e imagens
 
+### CSS
+
+Assim como existem regras no webpack para arquivos JS, é necessário criar as regras para CSS.
+
+- `css-loader`: Lê o arquivo css e interpreta as importações que existem dentro do arquivo;
+- `style-loader`: Faça a estilização interpretada pelo _css-loader_ ser injetada no HTML.
+
+![Regras CSS](.github/regras-css-webpack.png)
+
+### Imagens
+
 ---
 
 ## Listando Projetos da API
