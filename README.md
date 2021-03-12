@@ -56,6 +56,17 @@ Usando no componente:
 
 ## Estado e Imutabilidade
 
+Com os **Estados** no React, podemos manipular as informações em tempo de execução e atualizá-las na tela do usuário. A
+Função useState do React retorna um Array com 2 posições:
+
+- Variável com os dados armazenados;
+- Função para atualizar os valores;
+
+A **imutabilidade** é utilizada para garantir o desempenho mesmo em aplicações que contenham muitos dados, isto consiste
+em proibir a alteração do formato de uma variável, ou seja, não é permitida a inclusão ou exclusão direta dos dados.
+
+![implementando Estado e Imutabilidade](.github/estado-e-imutabilidade.png)
+
 ---
 
 ## Importando CSS e imagens
