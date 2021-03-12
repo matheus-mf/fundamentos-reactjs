@@ -86,6 +86,12 @@ Para usar o estilo, basta importar o CSS para o componente:
 
 ### Imagens
 
+Para lidar com imagens também é necessário criar regras no webpack.
+
+- `file-loader`: Interpretar imagens dentro dos componentes.
+
+![Regras Imagens](.github/regras-imagens-webpack.png)
+
 ---
 
 ## Listando Projetos da API
